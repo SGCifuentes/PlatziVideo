@@ -1,5 +1,38 @@
+@import './Vars.scss';
+@import './Media.scss';
+
 body {
-    margin: 0;
-    background-color: tomato;
-    color: white;
+  margin: 0px;
+  background: $main-color;
+  font-family: $theme-font;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(209, 209, 209);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar:hover {
+  background: rgb(131, 131, 131);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar:hover:active {
+  background: rgb(119, 119, 119);
 }

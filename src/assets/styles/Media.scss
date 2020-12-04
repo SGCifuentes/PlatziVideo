@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+  .main__title {
+    font-size: 30px;
+  }
+
+  .footer {
+    padding-top: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
